@@ -1,0 +1,73 @@
+import { COLORS } from '../styles/colors';
+
+export const TOOLS_DATA = [
+  // PDF Tools
+  { id: 1, name: 'Word a PDF', emoji: '📄', color: COLORS.pdfTool },
+  { id: 2, name: 'PDF a Word', emoji: '📝', color: COLORS.pdfTool },
+  { id: 3, name: 'JPG a PDF', emoji: '🖼️', color: COLORS.pdfTool },
+  { id: 4, name: 'PDF a JPG', emoji: '🖼️', color: COLORS.pdfTool },
+  { id: 5, name: 'Firmar PDF', emoji: '✍️', color: COLORS.pdfTool },
+  { id: 6, name: 'Comprimir PDF', emoji: '🗜️', color: COLORS.pdfTool },
+  { id: 7, name: 'Unir PDF', emoji: '📎', color: COLORS.pdfTool },
+  { id: 8, name: 'Dividir PDF', emoji: '✂️', color: COLORS.pdfTool },
+  { id: 9, name: 'Excel a PDF', emoji: '📊', color: COLORS.pdfTool },
+  { id: 10, name: 'PDF a Excel', emoji: '📊', color: COLORS.textTool },
+  { id: 11, name: 'PPT a PDF', emoji: '📽️', color: COLORS.pdfTool },
+  { id: 12, name: 'PDF a PPT', emoji: '📽️', color: COLORS.pdfTool },
+  { id: 13, name: 'Convertir a PDF', emoji: '📋', color: COLORS.pdfTool },
+  { id: 14, name: 'PDF a TXT', emoji: '📄', color: COLORS.pdfTool },
+  { id: 15, name: 'TXT a PDF', emoji: '📄', color: COLORS.pdfTool },
+  { id: 16, name: 'PDF a HTML', emoji: '🌐', color: COLORS.pdfTool },
+  { id: 17, name: 'HTML a PDF', emoji: '🌐', color: COLORS.pdfTool },
+  { id: 18, name: 'Eliminar contraseña PDF', emoji: '🔓', color: COLORS.pdfTool },
+  { id: 19, name: 'PDF a EPUB', emoji: '📚', color: COLORS.pdfTool },
+  { id: 20, name: 'EPUB a PDF', emoji: '📚', color: COLORS.pdfTool },
+  { id: 21, name: 'PNG a PDF', emoji: '🖼️', color: COLORS.pdfTool },
+  { id: 22, name: 'PDF a imágenes', emoji: '🖼️', color: COLORS.pdfTool },
+  { id: 23, name: 'PDF a MOBI', emoji: '📚', color: COLORS.pdfTool },
+  { id: 24, name: 'Extraer imágenes PDF', emoji: '🖼️', color: COLORS.pdfTool },
+  { id: 25, name: 'Rotar PDF', emoji: '🔄', color: COLORS.pdfTool },
+  { id: 26, name: 'Reordenar páginas PDF', emoji: '📄', color: COLORS.pdfTool },
+  { id: 27, name: 'Markdown a PDF', emoji: '📝', color: COLORS.pdfTool },
+
+  // Image Tools
+  { id: 28, name: 'PNG a JPG', emoji: '🔄', color: COLORS.imageTool },
+  { id: 29, name: 'JPG a PNG', emoji: '🔄', color: COLORS.imageTool },
+  { id: 30, name: 'BMP a JPG', emoji: '🔄', color: COLORS.imageTool },
+  { id: 31, name: 'WebP a JPG', emoji: '🔄', color: COLORS.imageTool },
+  { id: 32, name: 'JPG a WebP', emoji: '🔄', color: COLORS.imageTool },
+  { id: 33, name: 'Redimensionar imagen', emoji: '📏', color: COLORS.imageTool },
+  { id: 34, name: 'Comprimir imagen', emoji: '🗜️', color: COLORS.imageTool },
+  { id: 35, name: 'Imagen a ICO', emoji: '🖼️', color: COLORS.imageTool },
+  { id: 36, name: 'Firmar imagen', emoji: '✍️', color: COLORS.imageTool },
+  { id: 37, name: 'Texto a imagen', emoji: '🖼️', color: COLORS.imageTool },
+  { id: 38, name: 'HEIC a JPG', emoji: '🔄', color: COLORS.imageTool },
+
+  // Office Tools
+  { id: 39, name: 'DOCX a DOC', emoji: '📝', color: COLORS.officeTool },
+  { id: 40, name: 'DOC a DOCX', emoji: '📝', color: COLORS.officeTool },
+  { id: 41, name: 'Excel a CSV', emoji: '📊', color: COLORS.officeTool },
+  { id: 42, name: 'CSV a Excel', emoji: '📊', color: COLORS.officeTool },
+  { id: 43, name: 'JSON a CSV', emoji: '📋', color: COLORS.officeTool },
+  { id: 44, name: 'CSV a JSON', emoji: '📋', color: COLORS.officeTool },
+  { id: 45, name: 'PPTX a PPT', emoji: '📽️', color: COLORS.officeTool },
+  { id: 46, name: 'PPT a PPTX', emoji: '📽️', color: COLORS.officeTool },
+  { id: 47, name: 'DOC a ODT', emoji: '📝', color: COLORS.officeTool },
+  { id: 48, name: 'ODT a DOC', emoji: '📝', color: COLORS.officeTool },
+
+  // Audio/Video Tools
+  { id: 49, name: 'MP4 a MP3', emoji: '🎵', color: COLORS.audioTool },
+  { id: 50, name: 'WAV a MP3', emoji: '🎵', color: COLORS.audioTool },
+  { id: 51, name: 'Recortar audio', emoji: '✂️', color: COLORS.audioTool },
+  { id: 52, name: 'MP3 a OGG', emoji: '🎵', color: COLORS.audioTool },
+  { id: 53, name: 'MP3 a texto', emoji: '🎙️', color: COLORS.audioTool },
+  { id: 54, name: 'MP4 a GIF', emoji: '🎬', color: COLORS.audioTool },
+  { id: 55, name: 'GIF a MP4', emoji: '🎬', color: COLORS.audioTool },
+  { id: 56, name: 'MOV a MP4', emoji: '🎬', color: COLORS.audioTool },
+
+  // Text/Other Tools
+  { id: 57, name: 'OCR: Imagen a texto', emoji: '👁️', color: COLORS.textTool },
+  { id: 58, name: 'EPUB a MOBI', emoji: '📚', color: COLORS.textTool },
+  { id: 59, name: 'MOBI a EPUB', emoji: '📚', color: COLORS.textTool },
+  { id: 60, name: 'Solicitar firma', emoji: '✍️', color: COLORS.textTool },
+];
